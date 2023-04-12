@@ -1,0 +1,18 @@
+
+.info-cards .info-cards__card-hold {
+    margin-top: 170px;
+    min-width: 300px;
+}
+.info-cards .info-cards__card-hold.info-cards__card-hold--catalog {
+    width: 40%;
+}
+.info-cards .info-cards__card-hold.info-cards__card-hold--blog {
+    width: 60%;
+}
+.info-cards .card-product {
+    margin-right: 100px;
+}
+.info-cards .card-blog {
+    margin-left: 100px;
+    margin-right: -50px;
+}

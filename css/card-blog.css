@@ -1,0 +1,76 @@
+.card-blog {
+    
+    min-height: 680px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    box-shadow: 0px 0px 85px 0px rgba(5, 37, 81, 0.08);
+}
+.card-blog .card-blog__img-hold {
+    background-color: var(--pr);
+    order: 1;
+    min-width: 325px;
+}
+.card-blog .card-blog__mark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 16px;
+    margin: 25px 25px 0 0;
+}
+.card-blog .card-blog__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 610px; /*  Вказуэмо картинки  */
+}
+.card-blog .card-blog__text-hold {
+    background-color: #fff;
+}
+.card-blog .card-blog__top-hold {
+    margin-bottom: 25%;
+}
+
+    
+
+
+   
+
+.card-blog .card-blog__category {
+    margin: 25px;
+    font-size: 14px;
+    color: var(--gray);
+    font-weight: 700;
+
+}
+.card-blog .card-blog__top-hold-right {
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 40px;
+
+}
+.card-blog .card-blog__price {
+    padding-left: 75%;    
+
+}
+.card-blog .card-blog__title {
+    
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--pr);
+    margin-left: 8%;
+}
+
+.card-blog .card-blog__desc {
+    line-height: 2.6;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--gray);
+    margin-left: 8%;
+
+}
+.card-blog .card-blog__btn {
+    margin-left: 25px;
+    margin-top: 125px;
+}
+

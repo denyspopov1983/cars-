@@ -1,0 +1,149 @@
+@import url("main-base.css");
+@import url("helpers.css");
+@import url("send-form.css");
+@import url("menu.css");
+@import url("header.css");
+@import url("first-block.css");
+@import url("partners.css");
+@import url("info-series.css");
+@import url("announcement.css");
+@import url("block-slide.css");
+@import url("block-right.css");
+@import url("send-form2.css");
+@import url("info-cards.css");
+@import url("card-product.css");
+@import url("card-blog.css");
+@import url("section.css");
+@import url("footer.css");
+@import url("normalize.css");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+создать правила по распределению точек и пробелов при двойном селекторе
+
+
+
+
+
+.section1 section {
+    padding-top: 80px;
+}
+
+.background-text {
+    text-transform: uppercase;
+    font-size: 185px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    opacity: 3%;
+    letter-spacing: 1rem;
+}
+
+.section-main div {
+    position: absolute;
+    top: 360px;
+    width: 100%;
+}
+
+.section-main img {
+    display: block;
+    margin: auto;
+}
+
+.section1-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.section1 footer {
+    position: relative;
+    top: 300px;
+}
+
+.section1 footer p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section1-footer div {
+    color: white;
+    opacity: .5;
+    line-height: 1.5;
+    font-size: 24px;
+    width: 330px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
+
+.section1-footer div:last-child {
+    width: 214px;
+    height: 56px;
+    border-radius: 35px;
+    background-color: rgba(19, 94, 197, 1);
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 3.2;
+    font-size: 16px;
+    opacity: 1;
+}
+
+
+
+
+.container-fullsize {
+	padding-left: 100px;   
+	padding-right: 100px;
+}
+
+
+
+
+*/ 

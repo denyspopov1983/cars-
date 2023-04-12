@@ -1,0 +1,34 @@
+.send-form2 {
+    margin: 0 -30px;
+}
+
+.send-form2 .send-form2__input-wrap {
+}
+.send-form2 .form-item {
+    padding: 0 30px;
+    width: 25%;
+    min-width: 200px;
+}
+.send-form2 .send-form__input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(60 60 60 / 50%);
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px 0;
+    width: 100%;
+    max-width: 390px;
+}
+
+
+.send-form2 .send-form2__input:hover {
+    border-bottom-color: #fff;
+}
+.send-form2 .send-form2__input:focus {
+    outline: none;
+    border-bottom-color: #fff;
+}
+.send-form2 .send-form2__input::placeholder {
+    color: #3c3c3c;
+}

@@ -1,0 +1,39 @@
+
+.first-block {
+	background-color: #131210;
+	text-align: center;
+	padding: 200px 0 100px;
+    color: #fff;
+}
+.first-block .first-block__mercedes {
+    text-align: center;
+    position: relative;
+}
+.first-block .first-block__mercedes-word {
+    
+}
+.first-block .word-1 {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.first-block .word-2 {
+    left: 0;
+}
+.first-block .word-3 {
+    right: 0;
+}
+.first-block .word-2,
+.first-block .word-3 {
+    top: 190px;
+}
+.first-block .first-block__mercedes-img {
+    position: relative;
+}
+
+.first-block .send-form .send-form__submit {
+    max-width: 220px;
+}
+
+
+

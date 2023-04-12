@@ -1,0 +1,88 @@
+
+.info-series {
+ padding: 0 0 200px;
+}
+.info-series .info-series__wrap {
+    
+ text-align: inherit;
+ position: relative;
+ top: 100px;
+}
+
+
+.info-series .info-series__text-wrap {
+   order: 1;
+   width: 60%;
+}
+
+.info-series .info-series__title {
+ 
+}
+.info-series .info-series__text {
+  margin-top: -25px;
+  line-height: 2.6;
+}
+.info-series .info-series__button {
+  
+}
+.info-series .info-series__img-wrap {
+  width: 80%;
+  position: relative;
+}
+.info-series .info-series__img {
+  z-index: 2;
+  position: relative;
+}
+.info-series .item {
+  
+}
+.info-series .info-series__absolute-mg { /* Для обох слов */
+  
+}
+.info-series .word-1 {
+  left: -160px;
+  top: -100px;
+}
+
+.info-series .word-2 {
+  top: 80px;
+  left: 115px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+position: absolute;
+    top: 1500px;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.09);
+    font-weight: 700;
+    font-size: 185px;
+    position: absolute;
+    color: #d1d1d1;
+    z-index: 1;
+
+
+      display: flex;
+    position: relative;
+    top: 1500px;
+    z-index: 2;

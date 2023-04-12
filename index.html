@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cars</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- 
+
+        Блок 
+            Звичайна назва класу [ header ]
+        Елемент
+            З подвыйним пидверкуванням [  header__title  ]
+        Модификатор
+            Модификуэ елемент [  header__title--small  ]
+
+     -->
+
+    <header class="header">
+        <div class="container-fullsize header-wrapper">  
+            
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="Logo">
+            </a>
+        
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li class="menu-li">
+                        <a href="#" class="menu-link">
+                            <img src="img/mail.png" alt="mail" class="menu-link-icon">
+                            contact@furie.co
+                        </a>
+                    </li>
+                    <li class="menu-li">
+                        <a href="#" class="menu-link">
+                            <img src="img/phone.png" alt="phone" class="menu-link-icon">
+                            +48 605 320 091
+                        </a>
+                    </li>
+                    <li class="menu-li">
+                        <a href="#" class="menu-link-btn btn btn-white">Log in</a>
+                    </li>
+                </ul>
+            </nav>
+           
+        </div>
+    </header>
+   
+    <div class="first-block">
+        <div class="container">
+            <div class="first-block__mercedes">
+                <div class="first-block__mercedes-word word-1 abs-text-shadow">CHANGE</div>
+                <div class="first-block__mercedes-word word-2 abs-text-shadow">YOUR</div>
+                <div class="first-block__mercedes-word word-3 abs-text-shadow">CAR</div>
+                <img src="img/mercedes.png" alt="mercedes" class="first-block__mercedes-img img-resize" style="--max-size: 790px;"> 
+            </div>
+
+
+            <h3 class="title">Car buying made simple</h3>
+
+            <form action="#" class="send-form d-flex d-flex-wrap d-flex-space-around d-flex-align-center" method="POST">
+
+                <div class="send-form__input-wrap form-item">
+                    <input type="text" name="make" class="send-form__input" placeholder="Make">
+                </div>
+                
+                <div class="send-form__input-wrap form-item">
+                    <input type="text" name="model" class="send-form__input" placeholder="Model">
+                </div>
+                
+                <div class="send-form__input-wrap form-item">
+                    <input type="text" name="city" class="send-form__input" placeholder="City">
+                </div>
+                
+                <div class="send-form__submit-wrap form-item">
+                    <button class="send-form__submit btn w-100">Search</button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+    
+    <div class="partners">
+        <div class="container-fullsize">
+            <h3 class="partners__title title--gray title text-center">Take your best</h3>
+            
+            <div class="partners__pictures d-flex d-flex-space-between d-flex-wrap">
+                <div class="partners__img-wrap">
+                    <img src="img/mazda.png" alt="" class="partners__img">
+                </div> 
+                <div class="partners__img-wrap">
+                    <img src="img/Hyundai.png" alt="" class="partners__img ">
+                </div> 
+                <div class="partners__img-wrap">
+                    <img src="img/bmw.png" alt="" class="partners__img">
+                </div> 
+                <div class="partners__img-wrap">
+                    <img src="img/volvo.png" alt="" class="partners__img">
+                </div> 
+                <div class="partners__img-wrap">
+                    <img src="img/Chevrolet.png" alt="" class="partners__img">
+                </div> 
+                <div class="partners__img-wrap">
+                    <img src="img/Mercedes-Benz-1.png" alt="" class="partners__img">
+                </div> 
+                <div class="partners__img-wrap">
+                    <img src="img/Honda.png" alt="" class="partners__img">
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <div class="info-series">
+        <div class="container">  <!--весь текст по середине-->  
+            <div class="info-series__wrap d-flex">        <!--?--> 
+                <div class="info-series__text-wrap">   <!--?--> 
+                    <h3 class="info-series__title title title--blue fs-60px ">BMW Series</h3>
+                    <p class="info-series__text text-default" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>In sed,Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed</p>
+                    <a href="#" class="info-series__button btn">View all models</a>
+                </div> 
+
+                <div class="info-series__img-wrap">
+                    <img src="img/BMW_Photo.png" alt="photo bmw car" class="info-series__img"> <!--фото bmw-->  
+                    <div class="info-series__absolute-mg word-1 abs-text-shadow-white">BMW</div> <!--текст bmw-->
+                    <div class="info-series__absolute-mg word-2 abs-text-shadow-white">series</div> <!--текст series-->
+                </div> 
+            </div>
+
+        </div>
+    </div>
+
+    <div class="announcement">
+        <div class="container"> 
+            <h3 class="announcement__title">Add your announcement now</h3>
+            <a href="#" class="announcement__btn btn-padding">ADD NOW</a>
+            
+            <img src="img/car lest side.png" alt="car" class="announcement__img">
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="info-cards">
+        <div class="container">
+
+            <div class="info-cards__wrapper d-flex d-flex-wrap">
+
+                <div class="info-cards__card-hold info-cards__card-hold--catalog">
+                    
+                    <div class="card-product">
+                        <div class="card-product__img-hold relative">
+                            <span class="card-product__img-mark btn btn-white">Fresh</span>
+                            <span class="card-product__img-detail abs-text-shadow-white">FURIE</span>
+                            <img src="img/Photo1.png" alt="" class="card-product__img">
+                        </div>
+                        <div class="card-product__text-hold">
+                            <a href="#" class="card-product__title">Mercedes Benz lorem</a>
+                            <p class="card-product__category">Mercedes Cars</p>
+                            <p class="card-product__info">2013 - 75 500 km - Diesel - 1.8</p>
+                            <div class="card-product__btn-hold d-flex">
+                                <div class="card-product__btn-hold-left w-50">
+                                    <div class="card-product__price helper-price fw-700">15.000$</div>
+                                </div>
+                                <div class="card-product__btn-hold-right w-50">
+                                    <a href="#" class="card-product__btn-more btn">Order car</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+
+
+
+
+
+                
+                <div class="info-cards__card-hold info-cards__card-hold--blog">
+                    
+                    <div class="card-blog d-flex">
+                        
+                        <div class="card-blog__img-hold relative">
+                            <span class="card-blog__mark btn btn-white">Fresh</span>
+                            <img src="img/Mercedes-Benz-big photo.png" alt="" class="card-blog__img">
+                        </div>
+                        
+                        <div class="card-blog__text-hold">
+                            <div class="card-blog__top-hold d-flex">
+                                <div class="card-blog__top-hold-left">
+                                    <div class="card-blog__category">Mercedes Cars</div>
+                                </div>
+                                <div class="card-blog__top-hold-right ">
+                                    <div class="card-blog__price helper-price fw-700 ">15.000$</div>
+                                </div>
+                            </div>
+                            <a href="#" class="card-blog__title">Mercedes Benz lorem</a>
+                            <p class="card-blog__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed magna arcu. Quisque in augue faucibus, eleifend quam vitae, euismod enim. </p>
+                            <a href="#" class="card-blog__btn btn ">More info</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    
+    <section class="footer">
+        <header>
+            <div class="make item">Make</div>
+            <div class="warsaw item">
+                <div> Warsaw, Poland.</div>
+                <img src="img/Pin.png" alt="point">
+            </div>
+            <div class="category item">Category</div>
+            <div class="keywords item">Keywords</div>
+            
+        </header>
+        <div class="line"></div>
+
+        <section class="white">
+            <div class="cars-logo">
+                <div class="partners__pictures d-flex d-flex-space-between d-flex-wrap">
+                    <div class="partners__img-wrap">
+                        <img src="img/mazda.png" alt="" class="partners__img">
+                    </div> 
+                    <div class="partners__img-wrap">
+                        <img src="img/Hyundai.png" alt="" class="partners__img ">
+                    </div> 
+                    <div class="partners__img-wrap">
+                        <img src="img/bmw.png" alt="" class="partners__img">
+                    </div> 
+                    <div class="partners__img-wrap">
+                        <img src="img/volvo.png" alt="" class="partners__img">
+                    </div> 
+                    <div class="partners__img-wrap">
+                        <img src="img/Chevrolet.png" alt="" class="partners__img">
+                    </div> 
+                    <div class="partners__img-wrap">
+                        <img src="img/Mercedes-Benz-1.png" alt="" class="partners__img">
+                    </div> 
+                    <div class="partners__img-wrap">
+                        <img src="img/Honda.png" alt="" class="partners__img">
+                    </div> 
+
+                </div> 
+            </section>
+
+
+
+
+            <section class="footer1">
+             <header>
+            <div class="Price from">Price from</div>
+            <div class="To">To</div>
+            <div class="Years from">Years from</div>
+            <div class="To">To</div>
+         </header>
+    </section>
+
+
+
+<div class="hide  d-flex">
+    <div class="hide__top-hold ">
+        <div class="hide__top-hold-left">        <!--   Почему так -->   
+            <div class="hide__category">Hide advanced search</div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    <section class="blue">
+        <div class="advanced-search">
+            <div>Transmission</div>
+            <div>Fuel type</div>
+            <div>Drive type</div>
+            <div>Cylinders</div>
+        </div>
+
+
+        <div class="advanced-search">
+            <div>Power</div>
+            <div>Engine size</div>
+            <div>Towing</div>
+            <div>Induction/turbo</div>
+        </div>
+
+        <div>
+            <button>search</button>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+     
+    <!--   
+
+
+ <div>
+                <button>search</button>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="section5">
+        <header>
+            <div class="make">Make</div>
+            <div class="warsaw">
+                <div> Warsaw, Poland.</div>
+                <img src="image/point.png" alt="point">
+            </div>
+            <div class="category">Category</div>
+            <div class="keywords">Keywords</div>
+        </header>
+
+
+
+        <section class="white">
+            <div class="cars-logo">
+                <div><a href="#mazda"><img  id="mazda" src="image/mazda.png" alt="mazda"></a></div>
+                <div><a href="#hyundai"><img  id="hyundai" src="image/hyundai.png" alt="hyundai"></a></div>
+                <div><a href="#bmw"><img id="bmw" src="image/bmw.png" alt="bmw"></a></div>
+                <div><a href="#volvo"><img id="volvo" src="image/volvo.png" alt="volvo"></a></div>
+                <div><a href="#chevrolet"><img id="chevrolet" src="image/chevrolet.png" alt="chevrolet"></a></div>
+                <div><a href="#mercedes"><img id="mercedes" src="image/mercedes.png" alt="mercedes"></a></div>
+                <div><a href="#honda"><img id="honda" src="image/honda.png" alt="honda"></a></div>
+            </div>
+
+
+            <div class="search">
+                <div>Price from</div>
+                <div>To</div>
+                <div>Years from</div>
+                <div>To</div>
+            </div>
+
+
+            <div>Hide advanced search</div>
+        </section>
+
+
+
+
+        <section class="blue">
+            <div class="advanced-search">
+                <div>Transmission</div>
+                <div>Fuel type</div>
+                <div>Drive type</div>
+                <div>Cylinders</div>
+            </div>
+
+
+            <div class="advanced-search">
+                <div>Power</div>
+                <div>Engine size</div>
+                <div>Towing</div>
+                <div>Induction/turbo</div>
+            </div>
+
+            <div>
+                <button>search</button>
+            </div>
+
+        </section>
+  
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            <div class="footer"> </div> 
+        <div class="container">   </div> 
+             <div class="container">  </div>  
+                <div class="footer__wrapper d-flex d-flex-wrap"></div> 
+                    <div class="footer__card-hold footer__card-hold--catalog"></div> 
+                         <div class="forms"></div> 
+                            <div class="footer__white-list relative"></div> 
+
+
+
+
+
+
+
+                                <div class="footer__blue-list"></div> 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="info-cards">
+            <div class="container">
+    
+                <div class="info-cards__wrapper d-flex d-flex-wrap">
+    
+                    <div class="info-cards__card-hold info-cards__card-hold--catalog">
+                        
+                        <div class="card-product">
+                            <div class="card-product__img-hold relative">
+
+
+
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 
+    <form action="#" class="send-form2 d-flex d-flex-wrap d-flex-space-around d-flex-align-center" method="POST">
+
+        <div class="send-form2__input-wrap form-item">
+            <input type="text" name="make" class="send-form__input" placeholder="Make">
+        </div>
+        
+        <div class="send-form2__input-wrap form-item">
+            <input type="text" name="model" class="send-form__input" placeholder="Warsaw, Poland">
+        </div>
+        
+        <div class="send-form2__input-wrap form-item">
+            <input type="text" name="city" class="send-form__input" placeholder="Category">
+        </div>
+        
+        <div class="send-form2__input-wrap form-item">
+            <input type="text" name="city" class="send-form__input" placeholder="Keywords">
+        </div>
+
+    </form>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
